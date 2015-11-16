@@ -7,9 +7,10 @@ You can use it as a middleware or even just as an object in your service layer
 
 This package uses the "google/recaptcha" package to handle the bulk of the lifting.
    
-## Usage [Middleware]
+## Usage
 
 The class is invokable
+
 ```php
 $container[Recaptcha::class] = new \ReCaptcha\ReCaptcha($key);
 
